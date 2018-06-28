@@ -6,7 +6,7 @@ class ConanGTestExample(ConanFile):
     """Build Conan GTest Example"""
     name = "conan-gtest-example"
     version = "0.1.0"
-    url = "https://github.com/uilianries/conan-gtest-example"
+    url = "https://github.com/karasusan/conan-gtest-example"
     author = "lasote"
     license = "MIT"
     settings = "os", "arch", "compiler", "build_type"
