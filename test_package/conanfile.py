@@ -6,12 +6,12 @@ class TestConanGTestExample(ConanFile):
     name = "TestConanGTestExample"
     version = "0.1.0"
     author = "lasote"
-    url = "https://github.com/lasote/conan-gtest-example"
+    url = "https://github.com/karasusan/conan-gtest-example"
     license = "MIT"
     settings = "os", "compiler", "arch", "build_type"
     generators = "cmake"
     cmake = None
-    requires = "gtest/1.7.0@lasote/stable"
+    requires = "gtest/1.8.0@lasote/stable"
     default_options = "gtest:shared=True"
 
     def build(self):
