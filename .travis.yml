@@ -14,4 +14,4 @@ install:
   
 script:
   # Install dependencies, build, test and create package
-  - conan create conan/testing --build missing
+  - conan create . conan/testing --build missing
